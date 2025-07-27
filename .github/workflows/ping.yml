@@ -10,8 +10,7 @@ jobs:
     steps:
       - name: Gửi request đến các route chính
         run: |
-          urls=(
-            "https://mobile-shop-five-ochre.vercel.app/"
+          urls=(            
             "https://mobile-shop-api-llds.onrender.com/products"
           )
           for url in "${urls[@]}"; do

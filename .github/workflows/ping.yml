@@ -12,7 +12,7 @@ jobs:
         run: |
           urls=(
             "https://mobile-shop-smoky.vercel.app"
-            
+            "https://mobile-shop-api-llds.onrender.com/products"
           )
           for url in "${urls[@]}"; do
             echo "🔁 Pinging $url..."
